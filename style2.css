@@ -1,26 +1,29 @@
 nav {
-    background-color: black; 
+    background-color: black; position: sticky; top:0; 
 }
 h1{
     color: white; display:inline;
 }
 a:link{
-    color:white; text-decoration: none;
+    color:white; text-decoration: none; 
+}
+a:visited{
+    color: white; text-decoration: none;
 }
 li{
     display: inline; color: white; text-decoration: none; padding-block: 50px;
 }
 #header{
-    text-align: left; padding-right:0px; padding-left: 50px; display:inline-block;
+    text-align: left; padding-right:0px; padding-left: 50px; display:inline-block; position:sticky; top:0
 }
 .container{
-    position: relative; text-align: center; color: white;
+    position: relative; text-align: center; color: white;  
 }
 .centered {
-    position: absolute; top:50%; left: 50%; color: white; font-size: xx-large;
+    position: absolute; top:50%; left: 30%; color: white; font-size: 90px; font-family: "roboto"; justify-content: space-between;
 }
 #nav_bar{
-    text-align: right; padding-block: 10px; justify-content: space-between; align-items: stretch; display: inline-block; word-spacing: 30px;
+    text-align: right; padding-block: 10px; justify-content: space-between; align-items: stretch; display: inline-block; word-spacing: 30px; position: sticky; top:0
 }
 #big{
     width: 1503px;
@@ -38,7 +41,7 @@ dl{
     display:inline; width: 100px; height: auto; padding:20px;
 }
 table{
- margin-left:auto; margin-right: auto;   margin-top:200px
+ margin-left:auto; margin-right: auto;  
 }
 tr{
     margin-left: 500px; margin-right: 500px; text-align: center;
@@ -52,6 +55,9 @@ th>p{
 th>h3{
     text-align: left; padding: 5px
 }
-h5{
-    
+h2{
+    border-style: outset; margin-top: 200px; display:inline-block;  display:flex; flex-grow: 5; margin-left: 298px; margin-right:250px;
+}
+html* {
+    font-family: "roboto" !important;
 }

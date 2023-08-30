@@ -1,0 +1,57 @@
+nav {
+    background-color: black; 
+}
+h1{
+    color: white; display:inline;
+}
+a:link{
+    color:white; text-decoration: none;
+}
+li{
+    display: inline; color: white; text-decoration: none; padding-block: 50px;
+}
+#header{
+    text-align: left; padding-right:0px; padding-left: 50px; display:inline-block;
+}
+.container{
+    position: relative; text-align: center; color: white;
+}
+.centered {
+    position: absolute; top:50%; left: 50%; color: white; font-size: xx-large;
+}
+#nav_bar{
+    text-align: right; padding-block: 10px; justify-content: space-between; align-items: stretch; display: inline-block; word-spacing: 30px;
+}
+#big{
+    width: 1503px;
+}
+#small{
+    width: auto; height: auto;
+}
+.footer{
+    background-color: black; display: flex; align-items: center;
+}
+dl{
+    color:white; display:inline; padding: 20px; flex-direction: column; line-height: 30px;
+}
+#map{
+    display:inline; width: 100px; height: auto; padding:20px;
+}
+table{
+ margin-left:auto; margin-right: auto;   margin-top:200px
+}
+tr{
+    margin-left: 500px; margin-right: 500px; text-align: center;
+}
+button{
+    background-color: rgb(194, 178, 4); border-color: rgb(194, 178, 4); border-style: solid; border-radius: 6px; height: 50px; width: 100px;
+}
+th>p{
+    text-align: left; margin-right:50px; padding: auto
+}
+th>h3{
+    text-align: left; padding: 5px
+}
+h5{
+    
+}
